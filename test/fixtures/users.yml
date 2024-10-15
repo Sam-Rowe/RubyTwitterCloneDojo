@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  : MyText
+  handle: MyString
+  : MyText
+  followers: MyString
+  : 1
+
+two:
+  email: MyString
+  : MyText
+  handle: MyString
+  : MyText
+  followers: MyString
+  : 1

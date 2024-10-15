@@ -1,0 +1,19 @@
+<h1>Message#index</h1>
+<table>
+    <tr>
+        <th>id</th>
+        <th>text</th>
+        <th>handle</th>
+        <th>created_at</th>
+        <th>updated_at</th>
+    </tr>
+    <% @messages.each do |m| %>
+        <tr>
+            <td><%= m.id %></td>
+            <td><%= m.text %></td>
+            <td>blank_hanlde</td>
+            <td><%= m.created_at %></td>
+            <td><%= m.updated_at %></td>
+        </tr>
+    <% end %>
+</table>
